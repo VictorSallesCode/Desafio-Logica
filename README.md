@@ -23,7 +23,7 @@ Os projetos têm como objetivo reforçar conceitos de programação, lógica, al
 
 ## Contato
 
-Dúvidas ou sugestões? Entre em contato pelo [LinkedIn](https://www.linkedin.com/) ou abra uma issue.
+Dúvidas ou sugestões? Entre em contato pelo [LinkedIn](https://www.linkedin.com/victorbsalles) ou abra uma issue.
 
 ---
 Bons estudos e boa prática de código! 🚀
