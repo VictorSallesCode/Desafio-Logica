@@ -1,5 +1,5 @@
 function calcularNivel(vitorias, derrotas) {
-    let saldoVitorias = vitorias - derrotas;
+    let resultadodeVitorias = vitorias - derrotas;
     let nivel;
 
     if (vitorias < 10) {
@@ -18,17 +18,17 @@ function calcularNivel(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    return { saldoVitorias, nivel };
+    return { resultadodeVitorias, nivel };
 }
 
 
-function exibirResultado(saldoVitorias, nivel) {
-    console.log(`O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`);
+function exibirResultado(resultadodeVitorias, nivel) {
+    console.log(`O Herói tem de saldo de ${resultadodeVitorias} está no nível de ${nivel}`);
 }
 
 let vitorias = 80;
 let derrotas = 20;
 
 let resultado = calcularNivel(vitorias, derrotas);
-exibirResultado(resultado.saldoVitorias, resultado.nivel);
+exibirResultado(resultado.resultadodeVitorias, resultado.nivel);
 
